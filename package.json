@@ -1,0 +1,65 @@
+{
+  "name": "yagoutpay-sdk-js",
+  "version": "1.0.0",
+  "description": "Lightweight, production-ready Node.js SDK for YagoutPay Aggregator Hosted integration with AES-256-CBC encryption and SHA-256 hash verification.",
+  "main": "src/yagoutpay.js",
+  "type": "module",
+  "keywords": [
+    "yagoutpay",
+    "payment",
+    "gateway",
+    "sdk",
+    "nodejs",
+    "encryption",
+    "aes",
+    "sha256",
+    "ethiopia",
+    "fintech"
+  ],
+  "author": {
+    "name": "YagoutPay SDK Contributors",
+    "email": "support@yagoutpay.com",
+    "url": "https://yagoutpay.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/yagoutpay-sdk-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/yagoutpay-sdk-js/issues"
+  },
+  "homepage": "https://github.com/yourusername/yagoutpay-sdk-js#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "start:demo": "node demo/server.js",
+    "dev": "node --watch demo/server.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "test:watch": "echo \"No tests specified\" && exit 0",
+    "test:coverage": "echo \"No tests specified\" && exit 0",
+    "lint": "echo \"No linter configured\" && exit 0",
+    "format": "echo \"No formatter configured\" && exit 0",
+    "build": "echo \"No build process needed\" && exit 0",
+    "prepublishOnly": "npm test && npm run lint"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pdfkit": "^0.13.0",
+    "express-session": "^1.17.3"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
