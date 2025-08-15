@@ -31,7 +31,7 @@ npm install yagoutpay-sdk-js
 Or clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/yagoutpay-sdk-js.git
+git clone https://github.com/tess61/YagoutPay-SDK-Code-Sprint-Challenge.git
 cd yagoutpay-sdk-js
 npm install
 ```
@@ -245,7 +245,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - 📧 Email: support@yagoutpay.com
 - 📖 Documentation: [YagoutPay API Docs](https://docs.yagoutpay.com)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/yagoutpay-sdk-js/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/tess61/YagoutPay-SDK-Code-Sprint-Challenge.git)
 
 ## 🙏 Acknowledgments
 
